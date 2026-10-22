@@ -25,7 +25,7 @@ export default function Contact() {
 
       <p>
         Replace this text with your email address:
-        your-email@example.com
+        vg09876.com@email.com
       </p>
 
       <Link href="/" style={{ color: "#60a5fa" }}>

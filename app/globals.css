@@ -462,3 +462,37 @@ h3,
     padding: 22px;
   }
 }
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-header-text {
+  flex: 1;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .contact-header {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .profile-img {
+    max-width: 220px;
+  }
+}
