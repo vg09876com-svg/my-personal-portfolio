@@ -12,6 +12,7 @@ export default function Contact() {
       </p>
 
       <h2>GitHub</h2>
+
       <p>
         <a
           href="https://github.com/vg09876com-svg"
@@ -23,9 +24,15 @@ export default function Contact() {
         </a>
       </p>
 
+      <h2>Email</h2>
+
       <p>
-        Replace this text with your email address:
-        vg09876.com@email.com
+        <a
+          href="mailto:vg09876.com@email.com"
+          style={{ color: "#60a5fa" }}
+        >
+          vg09876.com@email.com
+        </a>
       </p>
 
       <Link href="/" style={{ color: "#60a5fa" }}>
